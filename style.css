@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to right, rgb(195, 221, 250), rgb(255, 157, 0));
+    background-image: linear-gradient( rgb(195, 221, 250), rgb(255, 157, 0));
     padding: 50px 100px;
 }
 
@@ -30,31 +30,35 @@ main {
     align-items: flex-start;
 }
 
-.search {
+.main {
     height: 205px;
+    width: 500px;
     border: 3px solid black;
+    font-size: 25px;
 }
 
 article {
     background-color: white;
-    width: 820px;
-    height: 800px;
+    width: 1820px;
+    height: 1200px;
     overflow: auto;
+    border: 3px solid black;
 }
 
-aside {
+
+/* aside {
     width: 420px;
     height: 1000px;
-}
+} */
 
 section {
     background-color: white;
     margin-bottom: 30px;
 }
 
-.heading-a {
+.head {
     padding: 10px;
-    background-color: rgba(220, 220, 220, 0.623);
+    background-color: rgb(255 171 171)
 }
 
 .content {
@@ -63,7 +67,7 @@ section {
 
 input[type="text"] {
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 button {
@@ -84,10 +88,10 @@ article {
     font-size: 32px;
 }
 
-.b {
+.para {
     padding: 50px;
 }
 
-.h {
-    padding: 20px;
+.padd {
+    padding: 10px;
 }
